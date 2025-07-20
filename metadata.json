@@ -1,0 +1,5 @@
+{
+  "name": "MercaEasy",
+  "description": "MercaEasy is a service designed to solve the hassles of selling on Mercari. It offers an AI Assistant that automatically generates listing content from a photo and basic information, and a Full Proxy Service that handles the entire process from pickup to shipping.",
+  "requestFramePermissions": []
+}
