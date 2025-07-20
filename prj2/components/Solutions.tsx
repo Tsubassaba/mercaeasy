@@ -17,9 +17,10 @@ const Solutions: React.FC = () => {
         <div className="mt-16 grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
           <AnimatedSection className="w-full">
             <div className="bg-slate-50 rounded-2xl h-full flex flex-col border border-slate-200 shadow-sm overflow-hidden">
-              <ImagePlaceholder 
-                caption="AIアシスタントの画面 (推奨解像度: 800x500px)"
-                className="aspect-[16/10] rounded-b-none"
+              <img 
+                src="/sample3.png" 
+                alt="AIアシスタント画面" 
+                className="w-full h-auto object-cover aspect-[16/10] rounded-b-none"
               />
               <div className="p-8 flex flex-col flex-grow">
                 <h3 className="text-2xl font-bold text-blue-600">AI出品アシスタント</h3>
@@ -34,9 +35,10 @@ const Solutions: React.FC = () => {
           </AnimatedSection>
           <AnimatedSection className="w-full" delay={200}>
             <div className="bg-slate-50 rounded-2xl h-full flex flex-col border border-slate-200 shadow-sm overflow-hidden">
-                <ImagePlaceholder 
-                  caption="出品代行の作業風景 (推奨解像度: 800x500px)"
-                  className="aspect-[16/10] rounded-b-none"
+                <img 
+                  src="/sample4.png" 
+                  alt="出品代行の作業風景" 
+                  className="w-full h-auto object-cover aspect-[16/10] rounded-b-none"
                 />
               <div className="p-8 flex flex-col flex-grow">
                 <h3 className="text-2xl font-bold text-blue-600">まるごとお任せ出品代行</h3>

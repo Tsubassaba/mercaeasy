@@ -5,8 +5,8 @@ import ImagePlaceholder from './ImagePlaceholder';
 
 const testimonials = [
   {
-    name: "田中 さとみ",
-    details: "34歳・2児の母",
+    name: "伊東 かず",
+    details: "34歳・2児の父",
     quote: "AIアシスタントを使い始めて、今まで1時間かかっていた出品作業が10分で終わるように！空いた時間で子どもと遊べるようになり、本当に感謝しています。",
     caption: "田中さとみ様の写真 (推奨解像度: 200x200px)"
   },
@@ -38,7 +38,11 @@ const Testimonials: React.FC = () => {
           {testimonials.map((testimonial, index) => (
             <AnimatedSection key={index} delay={index * 150}>
               <div className="bg-white rounded-2xl p-8 h-full flex flex-col items-center text-center shadow-lg border border-slate-100">
-                <ImagePlaceholder caption={testimonial.caption} className="w-24 h-24 rounded-full" />
+                <img 
+                  src={`/sample${index + 6}.jpg`} 
+                  alt={`${testimonial.name}・スタッフ写真`} 
+                  className="w-24 h-24 rounded-full object-cover shadow-md"
+                />
                 <blockquote className="mt-6 text-slate-600 font-light italic flex-grow">
                   <p>"{testimonial.quote}"</p>
                 </blockquote>

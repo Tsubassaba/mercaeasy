@@ -38,9 +38,10 @@ const PainPoints: React.FC = () => {
         </AnimatedSection>
         <div className="mt-16 grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <AnimatedSection className="w-full" delay={200}>
-            <ImagePlaceholder 
-              caption="悩んでいる主婦のイラスト (推奨解像度: 600x600px)"
-              className="aspect-square"
+            <img 
+              src="/sample2.png" 
+              alt="悩んでいる主婦" 
+              className="w-full h-auto rounded-lg shadow-md"
             />
           </AnimatedSection>
           <div className="space-y-6">

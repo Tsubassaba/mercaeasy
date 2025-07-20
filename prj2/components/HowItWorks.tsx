@@ -46,7 +46,11 @@ const HowItWorks: React.FC = () => {
                 {steps.map((step, index) => (
                     <AnimatedSection key={index} delay={index * 200} className="relative">
                         <div className="bg-white p-6 md:p-8 rounded-2xl shadow-lg border border-slate-100 h-full flex flex-col">
-                            <ImagePlaceholder caption={step.caption} className="aspect-[4/3]"/>
+                            <img 
+                              src={`${step.number === '01' ? '/sample5.jpg' : step.number === '03' ? '/sample9.png' : '/sample3.png'}`}
+                              alt={step.title}
+                              className="w-full h-auto object-cover aspect-[4/3] rounded-t-lg"
+                            />
                             <div className="mt-6 text-2xl font-bold text-blue-600">{step.number}</div>
                             <h3 className="mt-4 text-xl font-bold text-slate-800">{step.title}</h3>
                             <p className="mt-2 text-slate-600 font-light flex-grow">{step.description}</p>
