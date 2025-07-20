@@ -18,7 +18,7 @@ const Solutions: React.FC = () => {
           <AnimatedSection className="w-full">
             <div className="bg-slate-50 rounded-2xl h-full flex flex-col border border-slate-200 shadow-sm overflow-hidden">
               <img 
-                src="/mercaeasy/sample3.png" 
+                src={`${import.meta.env.BASE_URL}sample3.png`} 
                 alt="AIアシスタント画面" 
                 className="w-full h-auto object-cover aspect-[16/10] rounded-b-none"
               />
@@ -36,7 +36,7 @@ const Solutions: React.FC = () => {
           <AnimatedSection className="w-full" delay={200}>
             <div className="bg-slate-50 rounded-2xl h-full flex flex-col border border-slate-200 shadow-sm overflow-hidden">
                 <img 
-                  src="/mercaeasy/sample4.png" 
+                  src={`${import.meta.env.BASE_URL}sample4.png`} 
                   alt="出品代行の作業風景" 
                   className="w-full h-auto object-cover aspect-[16/10] rounded-b-none"
                 />

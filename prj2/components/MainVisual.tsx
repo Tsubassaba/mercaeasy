@@ -8,7 +8,7 @@ const MainVisual: React.FC = () => {
     <section className="relative h-screen min-h-[600px] flex items-center justify-center text-center text-white">
       <div className="absolute inset-0 bg-black">
         <img 
-          src="/mercaeasy/sample1.jpg" 
+          src={`${import.meta.env.BASE_URL}sample1.jpg`} 
           alt="A person happily organizing items for sale at home" 
           className="w-full h-full object-cover opacity-40" 
         />
