@@ -39,7 +39,7 @@ const PainPoints: React.FC = () => {
         <div className="mt-16 grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           <AnimatedSection className="w-full" delay={200}>
             <img 
-              src="/sample2.png" 
+              src="/mercaeasy/sample2.png" 
               alt="悩んでいる主婦" 
               className="w-full h-auto rounded-lg shadow-md"
             />

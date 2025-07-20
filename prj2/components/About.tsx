@@ -10,7 +10,7 @@ const About: React.FC = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <AnimatedSection>
             <img 
-              src="/sample10.png"
+              src="/mercaeasy/sample10.png"
               alt="MercaEasyチームメンバーの写真"
               className="w-full h-auto object-cover aspect-[4/3] rounded-t-lg"
             />

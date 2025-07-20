@@ -39,7 +39,7 @@ const Testimonials: React.FC = () => {
             <AnimatedSection key={index} delay={index * 150}>
               <div className="bg-white rounded-2xl p-8 h-full flex flex-col items-center text-center shadow-lg border border-slate-100">
                 <img 
-                  src={`/sample${index + 6}.jpg`} 
+                  src={`/mercaeasy/sample${index + 6}.jpg`} 
                   alt={`${testimonial.name}・スタッフ写真`} 
                   className="w-24 h-24 rounded-full object-cover shadow-md"
                 />
